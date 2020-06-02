@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans";
 }
 
 html,body{
     height: 100%;
+}
+
+@font-face{
+    src: url('../_fonts/OpenSans-Light.ttf');
+    font-family: "Open Sans";
 }
 
 .center{
@@ -44,4 +50,11 @@ html,body{
     top: -15px;
     border: 8px solid #ccc;
     background-color: white;
+    padding: 10px;
+}
+
+.form h2{
+    font-weight: normal;
+    color: #999999;
+    font-size: 21px;
 }
