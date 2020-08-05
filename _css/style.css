@@ -32,7 +32,9 @@ html,body{
 }
 
 .header img{
-    margin: 15px;
+    width: 10%;
+    height: 50px;
+    margin-top: 5px;
 }
 
 .container-banner{
